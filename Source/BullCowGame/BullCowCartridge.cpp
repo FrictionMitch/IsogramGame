@@ -4,9 +4,11 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
+    PrintLine("Welcome to the Isogram game!");
+    PrintLine("Guess the word and press \"ENTER\"");
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
 {
-
+    ClearScreen();
 }
